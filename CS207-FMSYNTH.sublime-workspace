@@ -1,0 +1,831 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"d",
+				"divide_with_hi_lo\tLO=$s / $t; HI=$s % $t"
+			],
+			[
+				"Mono",
+				"MonoBehaviour"
+			],
+			[
+				"n",
+				"NUMBER_OF_ARRAY_ELEMENTS_NEEDED"
+			],
+			[
+				"prin",
+				"printCommonElements"
+			],
+			[
+				"Window",
+				"WindowHandler"
+			],
+			[
+				"IN",
+				"Instance"
+			],
+			[
+				"lp",
+				"lpszClassName"
+			],
+			[
+				"W",
+				"WindowClass"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"bit",
+				"bitStore"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "testcode/testcode.ino",
+			"settings":
+			{
+				"buffer_size": 4998,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 16,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 86.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"toggle menu",
+				"View: Toggle Menu"
+			],
+			[
+				"syntax c",
+				"Set Syntax: C++"
+			],
+			[
+				"syntax c im",
+				"Set Syntax: C Improved"
+			],
+			[
+				"syntax c++",
+				"Set Syntax: C++"
+			],
+			[
+				"toggle side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"TOGGLE menu",
+				"View: Toggle Menu"
+			],
+			[
+				"toggle ma",
+				"View: Toggle Minimap"
+			],
+			[
+				"t side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"set synta",
+				"Set Syntax: C"
+			],
+			[
+				"package control",
+				"Package Control: Remove Package"
+			],
+			[
+				"side bar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"TOGGLE MENU",
+				"View: Toggle Menu"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"sysntax java",
+				"Set Syntax: Java"
+			],
+			[
+				"set syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"set syntax javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn",
+				"Set Syntax: Java"
+			],
+			[
+				"Package Control: enable ",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"set syntax c+",
+				"Set Syntax: C++"
+			],
+			[
+				"t",
+				"View: Toggle Menu"
+			],
+			[
+				"toggle sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"settings ",
+				"Preferences: Settings"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"set syn",
+				"Set Syntax: C++"
+			],
+			[
+				"package control remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"toggle side ",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"toggel side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"prefer",
+				"Preferences: Settings - User"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle meu",
+				"View: Toggle Menu"
+			],
+			[
+				"view ",
+				"View: Toggle Menu"
+			],
+			[
+				"view toggl",
+				"View: Toggle Menu"
+			],
+			[
+				"vrp",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"synta",
+				"Set Syntax: Java"
+			],
+			[
+				"toggle ",
+				"View: Toggle Tabs"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"view toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"toggle tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"toggle ta",
+				"View: Toggle Tabs"
+			],
+			[
+				"view menu",
+				"View: Toggle Menu"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"view togg",
+				"View: Toggle Menu"
+			],
+			[
+				"view g",
+				"View: Toggle Menu"
+			],
+			[
+				"view me",
+				"View: Toggle Menu"
+			],
+			[
+				"view toggle menu",
+				"View: Toggle Menu"
+			],
+			[
+				"syntax java",
+				"Set Syntax: Java"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Repository"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - User"
+			],
+			[
+				"set plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"set syntax r",
+				"Set Syntax: R Console"
+			],
+			[
+				"view toggle side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"view to",
+				"View: Toggle Menu"
+			],
+			[
+				"vire ",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side ",
+				"View: Toggle Side Bar"
+			],
+			[
+				" ",
+				"About"
+			],
+			[
+				"package control ",
+				"Package Control: Install Package"
+			],
+			[
+				"view toggle t",
+				"View: Toggle Tabs"
+			],
+			[
+				"toggle men",
+				"View: Toggle Menu"
+			],
+			[
+				"view toggle tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"view t",
+				"View: Toggle Menu"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"SETTINGS",
+				"Preferences: Settings - User"
+			],
+			[
+				"SETTINGS ",
+				"Preferences: Settings - User"
+			],
+			[
+				"SETTIGNS",
+				"Preferences: Settings - User"
+			],
+			[
+				"View: toggle Menu",
+				"View: Toggle Menu"
+			],
+			[
+				"view: Toggle Menu",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 442.0
+	},
+	"console":
+	{
+		"height": 144.0,
+		"history":
+		[
+			"os.system('dir')",
+			"import os",
+			"ls",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"help",
+			"?",
+			"kl",
+			"wordcount",
+			"cls",
+			"wordcount",
+			"wordCount",
+			"wordcount",
+			"tocaps",
+			"prv",
+			"shell_cmd build",
+			"shell_cmd",
+			"cmd: build",
+			"dir",
+			"build",
+			"view.encoding()",
+			"view.encoding();",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"cmd cmd",
+			"compile",
+			"test",
+			"cmd",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/W",
+		"/W/testcode"
+	],
+	"file_history":
+	[
+		"/W/CS207-FMSYNTH.sublime-project",
+		"/C/Users/Coty/Desktop/democode/democode.ino",
+		"/C/Users/Coty/Desktop/la8/equation.s",
+		"/C/Users/Coty/Desktop/la8/convertF2C.s",
+		"/C/Users/Coty/Desktop/mips syscalls.s",
+		"/C/Users/Coty/Desktop/la8/Peter.s",
+		"/D/Drive/Classes/CS201/mips syscalls.s",
+		"/C/pspsdk/psp/sdk/samples/controller/basic/Makefile",
+		"/C/pspsdk/psp/sdk/samples/gu/blit/blit.c",
+		"/C/pspsdk/psp/sdk/samples/gu/lights/lights.c",
+		"/C/pspsdk/psp/sdk/samples/controller/basic/main.c",
+		"/C/Users/Schmoozer/Desktop/main.tex",
+		"/C/Users/Schmoozer/Desktop/start.bat",
+		"/C/pspsdk/psp/sdk/samples/wlan/main.c",
+		"/C/pspsdk/psp/sdk/samples/template/elf_template/Makefile",
+		"/C/pspsdk/psp/sdk/samples/template/elf_template/main.c",
+		"/C/pspsdk/psp/sdk/samples/kernel/messagebox/main.c",
+		"/D/Drive/Classes/CS201/Labs/la8/Peter.s",
+		"/C/pspsdk/psp/sdk/samples/me/basic/main.c",
+		"/C/pspsdk/psp/sdk/samples/me/basic/me.S",
+		"/C/pspsdk/psp/sdk/samples/pspmath/main.c",
+		"/D/Drive/Classes/CS201/Labs/la8/equation.s",
+		"/C/pspsdk/psp/sdk/samples/nand/dumpipl/main.c",
+		"/C/pspsdk/psp/sample/main.c",
+		"/D/Drive/Classes/CS201/Boilerplate.s",
+		"/D/Drive/Classes/CS201/Labs/la8/hello.s",
+		"/D/Drive/Classes/CS201/Assignments/A4/A4.tex",
+		"/D/Drive/Classes/CS207/Assignments/Assignment 6/Homework template.tex",
+		"/C/Users/Schmoozer/Desktop/a5q2.ino",
+		"/C/Users/Schmoozer/Desktop/TODO.ME",
+		"/D/Drive/Classes/CS207/Project/Proposal.tex",
+		"/D/Drive/Classes/CS207/Homework template.tex",
+		"/C/Users/Schmoozer/Desktop/Coordinator Contact Info - Fall 2018.xlsx",
+		"/C/Users/Schmoozer/AppData/Local/Temp/Coordinator Contact Info - Fall 2018.xlsx",
+		"/C/Users/Schmoozer/Desktop/fritzing.0.9.3b.64.pc(1)/fritzing.0.9.3b.64.pc/fritzing-parts/core/11LC010.fzp",
+		"/C/Users/Schmoozer/Desktop/Untitled.ino",
+		"/C/Users/Schmoozer/Desktop/Untitled_TMP/Untitled_TMP.ino",
+		"/E/CS207/Labs/lab3/lab3.ino",
+		"/C/Users/Schmoozer/AppData/Local/Temp/Temp1_morse.zip/morse/morse.ino",
+		"/D/Drive/Classes/CS207/Labs/Lab 2/morse/morse.ino",
+		"/E/CS207/Labs/lab2/morse.ino",
+		"/D/Drive/Classes/CS201/Assignments/A2/Q2 truth table",
+		"/D/Drive/Classes/CS207/Project/207 projects",
+		"/C/Users/Schmoozer/Desktop/morse/morse.ino",
+		"/C/Users/Schmoozer/AppData/Local/Temp/Morse_Read.ino",
+		"/W/tools/st.bat",
+		"/W/tools/build.bat",
+		"/W/src/main.lua",
+		"/W/luaplatformer.sublime-workspace",
+		"/W/luaplatformer.sublime.project",
+		"/W/luaplatformer.sublime-project",
+		"/D/Projects/luaplatformer/lua_cheat_sheet.lua",
+		"/D/Projects/luaplatformer/src/main.lua",
+		"/C/Users/Schmoozer/Desktop/TODO",
+		"/C/Users/Schmoozer/Desktop/sdfg.c",
+		"/D/Projects/nand2tetris/projects/11/Average/Main.jack",
+		"/C/Users/Schmoozer/AppData/Local/Temp/Temp1_nand2tetris-open-source-2.5.7.zip/CompilersPackageSource/Hack/VirtualMachine/HVMInstructionSet.java",
+		"/C/Users/Schmoozer/AppData/Local/Temp/Temp1_nand2tetris-open-source-2.5.7.zip/CompilersPackageSource/Hack/VirtualMachine/VirtualMachine.java",
+		"/D/Projects/nand2tetris/Notes.tex",
+		"/D/Projects/nand2tetris/hardware simulator HDL notes.tex",
+		"/D/Tools/Sublime Text/Data/Packages/User/Side Bar Folders.sublime-settings",
+		"/D/Projects/RaylibGame/raylib/src/core.c",
+		"/C/raylib/raylib/templates/standard_game/Makefile",
+		"/C/raylib/raylib/examples/core/core_vr_simulator.c",
+		"/D/Projects/RaylibGame/raylib/templates/standard_game/standard_game.c",
+		"/C/Users/Schmoozer/Desktop/lua_cheat_sheet.lua",
+		"/D/Tools/Sublime Text/Data/Packages/User/luaLOVE.sublime-build",
+		"/D/Projects/RaylibGame/raylib/templates/simple_game/Makefile",
+		"/C/raylib/raylib/templates/simple_game/Makefile.Android",
+		"/C/raylib/raylib/templates/simple_game/Makefile",
+		"/C/Users/Schmoozer/Desktop/$jsfloater_166.js",
+		"/D/Projects/Ships/Ships/Assets/ProCore/ProBuilder/readme.txt",
+		"/D/Drive/UofR/Previous Classes/CS110/Assignment 3_Janz_Coty/Q2.cpp",
+		"/D/Drive/UofR/Previous Classes/CS110/Assignment 3_Janz_Coty/Q1.cpp",
+		"/D/Drive/UofR/Previous Classes/CS110/Assignment 4_Janz_Coty/Q4.cpp",
+		"/D/Drive/UofR/Previous Classes/CS110/Assignment 4_Janz_Coty/Q3.cpp",
+		"/D/Drive/UofR/Previous Classes/CS110/Assignment 4_Janz_Coty/Q2.cpp",
+		"/D/Drive/UofR/Previous Classes/CS110/Assignment 4_Janz_Coty/Q1.cpp",
+		"/D/Projects/RaylibGame/raylib/templates/simple_game/simple_game.c",
+		"/D/Projects/RaylibGame/raylib/README.md",
+		"/D/Projects/RaylibGame/raylib/HELPME.md",
+		"/C/Users/Schmoozer/AppData/Local/COMPOUND/config.cfg",
+		"/D/Projects/Ships/Ships/Assets/ProCore/ProBuilder/Shader/DiffuseVertexColor.shader",
+		"/D/Projects/Ships/Ships/Assets/shaperot.cs",
+		"/D/Documents/Resumes/Personal Statement to the University of Regina",
+		"/D/Drive/UofR/Previous Classes/CS110/Assignment 3_Janz_Coty/Q4.cpp",
+		"/D/Drive/UofR/Previous Classes/CS110/Assignment 3_Janz_Coty/Q3.cpp",
+		"/D/Documents/Resumes/monokaicv.cls",
+		"/D/Documents/Resumes/Cotycv.tex",
+		"/D/Documents/Resumes/cotycover.tex",
+		"/C/Users/Schmoozer/AppData/Local/Temp/Temp1_drawio-libs-master.zip/drawio-libs-master/README.md",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/demo/Screen.java",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/demo/Camera.java",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/demo/Game.java",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/mike-raycaster-05-source/Engine.java",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/mike-raycaster-05-source/Player.java",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/mike-raycaster-05-source/RayResult.java",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/mike-raycaster-05-source/PlayerPos.java",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/mike-raycaster-05-source/Raycaster.java",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/mike-raycaster-05-source/GameMap.java",
+		"/D/Projects/Projects -old/CS Study/Ray Casters/mike-raycaster-05-source/DisplayCanvas.java",
+		"/C/Users/Schmoozer/Desktop/dumbpointers.c",
+		"/D/Projects/Battle Boats/Battle Boats Notes",
+		"/C/Users/Schmoozer/Desktop/Ray The  Rogue/Prelude-of-the-Chambered-master/build.xml",
+		"/D/Projects/Projects -old/RayKnights/src/RayKnights/RayKnights.java",
+		"/C/Users/Schmoozer/Desktop/Ray The  Rogue/Prelude-of-the-Chambered-master/src/com/mojang/escape/Game.java",
+		"/C/Users/Schmoozer/Desktop/Ray The  Rogue/Prelude-of-the-Chambered-master/src/com/mojang/escape/EscapeComponent.java",
+		"/C/Users/Schmoozer/Desktop/claPlayer.cls",
+		"/D/Projects/Projects -old/TDR/Transmission line theory and TDR",
+		"/D/Projects/Projects -old/SerialtoKeypress/GamePadReader/GamePadReader.ino",
+		"/D/Projects/Projects -old/SerialtoKeypress/src/serialtokeypress/SerialtoKeypress.java",
+		"/C/Users/Schmoozer/AppData/Local/Frontier Developments/Elite Dangerous/Options/Graphics/Settings.xml",
+		"/D/Drive/c/readelf.txt",
+		"/C/Users/Schmoozer/AppData/Local/Frontier Developments/Elite Dangerous/Options/Graphics/GraphicsConfigurationOverride.xml",
+		"/D/Projects/Projects -old/SerialtoKeypress/notes",
+		"/C/Users/Schmoozer/AppData/Local/Frontier Developments/Elite Dangerous/Options/Graphics/DisplaySettings.xml",
+		"/C/Users/Schmoozer/Desktop/Coty Janz Hours - Spring 2018.xlsx",
+		"/D/Drive/c/apt.txt",
+		"/D/Drive/c/test3.c",
+		"/D/Drive/c/test.hex",
+		"/C/Users/Schmoozer/Desktop/Tractor Thing/tt",
+		"/C/Users/Schmoozer/Desktop/Ray The  Rogue/rtr/Ray the Rogue - Notes",
+		"/C/Users/Schmoozer/Desktop/Ray The  Rogue/Prelude-of-the-Chambered-master/src/com/mojang/escape/entities/Item.java",
+		"/D/test3.s",
+		"/C/Users/Schmoozer/AppData/Local/Temp/tradlink.c",
+		"/C/Users/Schmoozer/Desktop/Ray The  Rogue/rtr/Example vector.js",
+		"/D/test.c",
+		"/D/test2.cpp"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 97.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "testcode/testcode.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1027,
+								1027
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 496,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 2,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 168.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/luaLOVE.sublime-build",
+	"project": "CS207-FMSYNTH.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Project 1: Raycaster in java. Impliment basic game"
+			],
+			[
+				"solidblock",
+				"Prelude-of-the-Chambered-master\\src\\com\\mojang\\escape\\level\\block\\SolidBlock.java"
+			],
+			[
+				"q1",
+				"Q1.cpp"
+			],
+			[
+				"q",
+				"Q5.cpp"
+			],
+			[
+				"q4",
+				"Q4.cpp"
+			],
+			[
+				"q3",
+				"Q3.cpp"
+			],
+			[
+				"q2",
+				"Q2.cpp"
+			],
+			[
+				"q2.cpp",
+				"Q2.cpp"
+			],
+			[
+				"c",
+				"C:\\Users\\Schmoozer\\Development\\Documents\\Resumes\\cotycover.tex"
+			],
+			[
+				"unti",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 111.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
