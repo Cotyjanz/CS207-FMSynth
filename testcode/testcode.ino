@@ -70,6 +70,14 @@ static void setreg(uint8_t reg, uint8_t data) {
   write_ym(data);
 }
 
+void parseNPlay(unsigned char data[], int length)
+{
+  for (unsigned int i = 0; i < length; i += 3) 
+  {
+    setreg(data[i+1], data[i+2]);
+  }
+}
+
 void setPianoTest()
 {
   //YM2612 Test Code
@@ -184,8 +192,9 @@ unsigned char rawData[149] = {
 
   setPianoTest();
 
-
-  /* Program loop */
+  parseNPlay(rawData, 149);
+ 
+   /* Program loop */
   for(;;) {
     _delay_ms(1000);
     setreg(0x28, 0xF0); // Key on
