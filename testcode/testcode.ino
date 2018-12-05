@@ -31,7 +31,7 @@
 #define YM_MCLOCK (5) // PB1 = OC1A (= pin D9 for Arduino UNO)
 #define YM_MCLOCK_DDR DDRB
 
-unsigned char rawData[149] = {
+uint8_t rawData[149] = {
   0x52, 0x22, 0x08, 0x52, 0x27, 0x00, 0x52, 0xB4, 0xC0, 0x52, 0xB5, 0xC0,
   0x52, 0xB6, 0xC0, 0x53, 0xB4, 0xC0, 0x53, 0xB5, 0xC0, 0x53, 0xB6, 0xC0,
   0x52, 0x28, 0x00, 0x52, 0x28, 0x01, 0x52, 0x28, 0x02, 0x52, 0x28, 0x03,
@@ -86,10 +86,9 @@ static void setreg(uint8_t reg, uint8_t data) {
   write_ym(data);
 }
 
-void parseNPlay(unsigned char data[], int length)
+void parseNPlay(uint8_t data[], int length)
 {
   int i = 0;
-
   int r = 0;
   int d = 0;
   while (i <= length) 
@@ -198,15 +197,43 @@ int main(void) {
   _delay_ms(10);
   
   setPianoTest();
-  parseNPlay(rawData, 149);
- 
+ //parseNPlay(rawData, 149);
+
+  int buttonState[6];         // current state of the button
+  int lastButtonState[6];
    /* Program loop */
   for(;;) {
-    _delay_ms(1000);
-    setreg(0x28, 0x00); // Key off
-    _delay_ms(1000);
-    setreg(0x28, 0xF0); // Key on
+    for(int i = 2; i < 6; i++) {
+      buttonState[i] = digitalRead(i);
+    }
+    if (buttonState[2] != lastButtonState[2]) {
+      if (buttonState[2] == LOW) {
+        setreg(0xA4, 0x13);
+        setreg(0xA0, 0x8E);
+        setreg(0x28, 0xF0); // Key on
+      } else {
+       setreg(0x28, 0x00);  
+    } 
+    _delay_ms(50);
   }
+  lastButtonState[2] = buttonState[2];
+  
+  if (buttonState[4] != lastButtonState[4]) {
+      if (buttonState[4] == LOW) {
+        setreg(0xA4, 0x22);
+        setreg(0xA0, 0x69);
+        setreg(0x28, 0xF0); // Key on
+      } else {
+       setreg(0x28, 0x00);  
+    }
+     _delay_ms(50);
+  }
+  lastButtonState[4] = buttonState[4];
+
+  
+
+     
+ }
   
   /* Compiler fix */
   return 0;
