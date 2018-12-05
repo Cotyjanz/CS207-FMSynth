@@ -17,7 +17,7 @@
 #include <avr/io.h>     // For I/O and other AVR registers
 #include <util/delay.h> // For timing
 
-/* Pinmap (Arduino UNO compatible) */
+/* Pinmap */
 #define YM_IC (5) // PC5 (= pin A5 for Arduino UNO)
 #define YM_CS (4) // PC4 (= pin A4 for Arduino UNO)
 #define YM_WR (3) // PC3 (= pin A3 for Arduino UNO)
@@ -26,9 +26,9 @@
 #define YM_A1 (0) // PC0 (= pin A0 for Arduino UNO)
 #define YM_CTRL_DDR DDRC
 #define YM_CTRL_PORT PORTC
-#define YM_DATA_DDR DDRD
-#define YM_DATA_PORT PORTD // Whole PORT D for data bus (= pins D0 to D7 for Arduino UNO)
-#define YM_MCLOCK (1) // PB1 = OC1A (= pin D9 for Arduino UNO)
+#define YM_DATA_DDR DDRA
+#define YM_DATA_PORT PORTA // Whole PORT A for data bus (= pins D0 to D7 for Arduino UNO)
+#define YM_MCLOCK (5) // PB1 = OC1A (= pin D9 for Arduino UNO)
 #define YM_MCLOCK_DDR DDRB
 
 /* ----- BIG WARNING FOR ARDUINO USERS -----
@@ -70,30 +70,9 @@ static void setreg(uint8_t reg, uint8_t data) {
   write_ym(data);
 }
 
-/** Program entry point */
-int main(void) {
-
-  /* Pins setup */
-  YM_CTRL_DDR |= _BV(YM_IC) | _BV(YM_CS) | _BV(YM_WR) | _BV(YM_RD) | _BV(YM_A0) | _BV(YM_A1);
-  YM_DATA_DDR = 0xFF;
-  YM_MCLOCK_DDR |= _BV(YM_MCLOCK);
-  YM_CTRL_PORT |= _BV(YM_IC) | _BV(YM_CS) | _BV(YM_WR) | _BV(YM_RD); /* IC, CS, WR and RD HIGH by default */
-  YM_CTRL_PORT &= ~(_BV(YM_A0) | _BV(YM_A1)); /* A0 and A1 LOW by default */
-  
-  /* F_CPU / 2 clock generation */
-  TCCR1A = _BV(COM1A0);            /* Toggle OCA1 on compare match */
-  TCCR1B = _BV(WGM12) | _BV(CS10); /* CTC mode with prescaler /1 */
-  TCCR1C = 0;                      /* Flag reset */
-  TCNT1 = 0;                       /* Counter reset */
-  OCR1A = 0;                       /* Divide base clock by two */
-  
-  /* Reset YM2612 */
-  YM_CTRL_PORT &= ~_BV(YM_IC);
-  _delay_ms(10);
-  YM_CTRL_PORT |= _BV(YM_IC);
-  _delay_ms(10);
-
-  /* YM2612 Test code */ 
+void setPianoTest()
+{
+  //YM2612 Test Code
   setreg(0x22, 0x00); // LFO off
   setreg(0x27, 0x00); // Note off (channel 0)
   setreg(0x28, 0x01); // Note off (channel 1)
@@ -135,6 +114,60 @@ int main(void) {
   setreg(0x28, 0x00); // Key off
   setreg(0xA4, 0x22); // 
   setreg(0xA0, 0x69); // Set frequency
+}
+
+/** Program entry point */
+int main(void) {
+
+/*There are 3 registers for PORTB
+  PORTB
+  DDRB
+  PINB
+
+  PORTB controls the drive state of the pins if set as an output via DDRB, and controls the enabling of the pull-up if configured as an input via DDRB.
+
+  DDRB controls if a pin is used as an output (bit=1), or as an input (bit=0)
+
+  PINB is read-only, and returns the electrical state sensed at the pin.
+
+  To set up a pin as an input, with the pullup enabled you only do the following. (using PB0 as an example here)
+
+  DDRB &= ~(1<<0); // configure PB0 as an input
+  PORTB |= (1<<0); // enable the pull-up on PB0
+
+  to read the pin you simply do the following:
+  myVar = PINB & (1<<0); // read the state of PB0 only
+*/
+
+  //Will be using port E for the input buttons
+  pinMode(2, INPUT_PULLUP);
+  pinMode(3, INPUT_PULLUP);
+  pinMode(4, INPUT_PULLUP);
+  pinMode(5, INPUT_PULLUP);
+  pinMode(6, INPUT_PULLUP);
+
+  /* Pins setup */
+  YM_CTRL_DDR |= _BV(YM_IC) | _BV(YM_CS) | _BV(YM_WR) | _BV(YM_RD) | _BV(YM_A0) | _BV(YM_A1);  // Coty: Check if this is a problem when swapping to MEGA, because of port sizes. may know more after testing on uno
+  YM_DATA_DDR = 0xFF;
+  YM_MCLOCK_DDR |= _BV(YM_MCLOCK);
+  YM_CTRL_PORT |= _BV(YM_IC) | _BV(YM_CS) | _BV(YM_WR) | _BV(YM_RD); /* IC, CS, WR and RD HIGH by default */
+  YM_CTRL_PORT &= ~(_BV(YM_A0) | _BV(YM_A1)); /* A0 and A1 LOW by default */
+  
+  /* F_CPU / 2 clock generation */
+  TCCR1A = _BV(COM1A0);            /* Toggle OCA1 on compare match */
+  TCCR1B = _BV(WGM12) | _BV(CS10); /* CTC mode with prescaler /1 */
+  TCCR1C = 0;                      /* Flag reset */
+  TCNT1 = 0;                       /* Counter reset */
+  OCR1A = 0;                       /* Divide base clock by two */
+  
+  /* Reset YM2612 */
+  YM_CTRL_PORT &= ~_BV(YM_IC);
+  _delay_ms(10);
+  YM_CTRL_PORT |= _BV(YM_IC);
+  _delay_ms(10);
+
+  setPianoTest();
+
 
   /* Program loop */
   for(;;) {
