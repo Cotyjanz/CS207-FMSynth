@@ -1,16 +1,13 @@
 /**
- * YM2612 test code for AVR.
- * 
- * This program is a simple test code for the YM2612 FM sound chip using an AVR ATmega328p mcu.
- * This program configure the YM2612 to sound like a "grand piano" and play note on / note off in loop.
- * For more informations about wiring please see: http://en.wikipedia.org/wiki/Yamaha_YM2612
- * For more informations about YM2612 registers please see: http://www.smspower.org/maxim/Documents/YM2612
+ * YM2612 base code for Arduino Mega
+ * By: Coty Janz
+ *
+ * This code is forked from the origial ATMega328 Test code:
+ * By: Fabien Batteix <skywodd@gmail.com>
+ *    http://skyduino.wordpress.com
  *
  * @remarks This test code is heavly based on Furrtek's YM2612 test code. Big thanks Furrtek for the help !
- * @warning This test code is made to run on an ATmega328/ATmega168 mcu with a 16MHz external crystal.
- * 
- * @author Fabien Batteix <skywodd@gmail.com>
- * @link http://skyduino.wordpress.com My Blog about electronics
+ * @warning This test code is made to run on an ATMega 2650 mcu with a 16MHz external crystal.
  */
 
 /* Dependencies */
@@ -46,14 +43,6 @@ uint8_t rawData[149] = {
   0x8C, 0xFF, 0x52, 0x9C, 0x00, 0x52, 0xB0, 0x24, 0x52, 0xA4, 0x13, 0x52,
   0xA0, 0x8E, 0x52, 0x28, 0xF0
 };
-
-/* ----- BIG WARNING FOR ARDUINO USERS -----
- * Normally ICSP port is used to program the AVR chip (see the makefile for details). 
- * So, if you use an arduino UNO board to run this test code BE VERY CAREFULL.
- * If you don't known what you make you will be in trouble.
- *
- * To avoid problems you can compile and upload this code using the Arduino IDE BUT you will need to disconnect pins Rx/Tx before upload !
- */
 
 /**
  * Send raw data to the YM2612
@@ -146,7 +135,6 @@ void setPianoTest()
   setreg(0xA0, 0x69); // Set frequency
 }
 
-/** Program entry point */
 int main(void) {
 
 /*There are 3 registers for PORTB
